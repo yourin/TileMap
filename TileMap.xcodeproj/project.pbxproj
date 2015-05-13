@@ -17,6 +17,8 @@
 		7BA9F0EB1B01540C00A28B7C /* TileMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA9F0EA1B01540C00A28B7C /* TileMapTests.swift */; };
 		7BA9F0F51B01546000A28B7C /* TextureTileMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA9F0F41B01546000A28B7C /* TextureTileMap.swift */; };
 		7BA9F0F71B01560B00A28B7C /* chara.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA9F0F61B01560B00A28B7C /* chara.png */; };
+		7BA9F0FA1B0402FC00A28B7C /* map_japan1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA9F0F81B0402FC00A28B7C /* map_japan1.png */; };
+		7BA9F0FB1B0402FC00A28B7C /* map_japan2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA9F0F91B0402FC00A28B7C /* map_japan2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		7BA9F0EA1B01540C00A28B7C /* TileMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileMapTests.swift; sourceTree = "<group>"; };
 		7BA9F0F41B01546000A28B7C /* TextureTileMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureTileMap.swift; sourceTree = "<group>"; };
 		7BA9F0F61B01560B00A28B7C /* chara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chara.png; sourceTree = "<group>"; };
+		7BA9F0F81B0402FC00A28B7C /* map_japan1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_japan1.png; sourceTree = "<group>"; };
+		7BA9F0F91B0402FC00A28B7C /* map_japan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_japan2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 				7BA9F0D61B01540C00A28B7C /* GameViewController.swift */,
 				7BA9F0D81B01540C00A28B7C /* Main.storyboard */,
 				7BA9F0F61B01560B00A28B7C /* chara.png */,
+				7BA9F0F81B0402FC00A28B7C /* map_japan1.png */,
+				7BA9F0F91B0402FC00A28B7C /* map_japan2.png */,
 				7BA9F0DB1B01540C00A28B7C /* Images.xcassets */,
 				7BA9F0DD1B01540C00A28B7C /* LaunchScreen.xib */,
 				7BA9F0CE1B01540C00A28B7C /* Supporting Files */,
@@ -204,9 +210,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BA9F0FB1B0402FC00A28B7C /* map_japan2.png in Resources */,
 				7BA9F0DF1B01540C00A28B7C /* LaunchScreen.xib in Resources */,
 				7BA9F0F71B01560B00A28B7C /* chara.png in Resources */,
 				7BA9F0DC1B01540C00A28B7C /* Images.xcassets in Resources */,
+				7BA9F0FA1B0402FC00A28B7C /* map_japan1.png in Resources */,
 				7BA9F0D31B01540C00A28B7C /* GameScene.sks in Resources */,
 				7BA9F0DA1B01540C00A28B7C /* Main.storyboard in Resources */,
 			);
